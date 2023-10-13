@@ -1,0 +1,163 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="C:\Users\lexa\Desktop\ggg\123.png"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Royal Jelly</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body>
+    <section class="header_wrap">
+      <header class="header"> 
+        <a href="index.html">
+          <img src="1.png" class="logo">
+        </a>
+        <nav>
+          <ul>
+            <li><a href="#Главная">Главная</a></li>
+            <li><a href="#О нас">О нас</a></li>
+            <li><a href="#Меню">Меню</a></li>
+            <li><a href="reviews.html">Отзывы</a></li>
+            <li><a href="#Карта">Карта</a></li>
+            <li><a href="#Контакты">Контакты</a></li>
+          </ul>
+        </nav>
+      </header> 
+      <section class="hero">
+        <h2>Добро пожаловать в ресторан Royal Jelly</h2> 
+        <p>У нас вы можете насладиться изысканными музыкой, едой и напитками в уютной атмосфере.</p> 
+        <div class="btn_block">
+          <a href="#openModal" class="btn trans">Забронировать</a>
+      </section>
+        <div id="openModal" class="modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Забронировать</h3>
+                <a href="#close" title="Close" class="close">×</a>
+              </div>
+              <div class="modal-body">    
+                <ul>
+                  <section class="eee">
+                    <form>
+                      <label for="name">Имя:</label>
+                      <input type="text" id="name" name="name">
+                      <label for="tel">Телефон:</label>
+                      <input type="tel" id="tel" name="tel">
+                      <label for="date">Дата:</label>
+                      <input type="date" id="date" name="date">
+                      <label for="time">Время:</label>
+                      <input type="time" id="time" name="time">
+                      <input type="submit" value="Записаться">
+                    </form>
+                    <p id="reservation-info">Вы успешно забронировали столик</p>
+                  </section>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="about"> 
+        <section id="О нас"></section> 
+             <h3>О нас</h3> 
+             <p>В самом центре Москвы, в средоточии ее культурной жизни вас всегда ждут в «Royal Jelly».
+               Здесь можно отдохнуть после прогулки по московским переулкам, организовать важную встречу,
+                приятно провести время в компании друзей на главной улице Москвы и насладится прекрасными блюдами разных кухонь.Мы предлагаем уникальную комбинацию изысканной кухни, впечатляющего интерьера и превосходного обслуживания. Насладитесь атмосферой роскоши и удовольствия в нашем уютном ресторане. </p>
+                <div class="all">
+                  <input checked type="radio" name="respond" id="desktop">
+                    <article id="slider">
+                        <input checked type="radio" name="slider" id="switch1">
+                        <input type="radio" name="slider" id="switch2">
+                        <input type="radio" name="slider" id="switch3">
+                        <input type="radio" name="slider" id="switch4">
+                        <input type="radio" name="slider" id="switch5">
+                      <div id="slides">
+                        <div id="overflow">
+                          <div class="image">
+                            <article><img src="x1.jpg"></article>
+                            <article><img src="x2.jpg"></article>
+                            <article><img src="x3.jpg"></article>
+                            <article><img src="x4.jpg"></article>
+                            <article><img src="x5.jpg"></article>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="controls">
+                        <label for="switch1"></label>
+                        <label for="switch2"></label>
+                        <label for="switch3"></label>
+                        <label for="switch4"></label>
+                        <label for="switch5"></label>
+                      </div>
+                      <div id="active">
+                        <label for="switch1"></label>
+                        <label for="switch2"></label>
+                        <label for="switch3"></label>
+                        <label for="switch4"></label>
+                        <label for="switch5"></label>
+                      </div>
+                    </article>
+                </div>
+      </section>
+      <section class="menu"> 
+        <section id="Меню"></section>
+        <h3>Меню</h3>
+      </section>
+      <div class="bluda">
+        <div class="imag">
+          <div class="text">Горячие блюда</div>
+            <a href="./menu.html"><img src="gor.jpg" alt=""></a>
+          </div>
+        <div class="imag">
+          <div class="text">Салаты</div>
+          <a href="./salat.html"><img src="salat.jpg" alt=""></a>
+        </div>
+        <div class="imag">
+          <div class="text">Супы</div>
+          <a href="./sup.html"><img src="sup.jpg" alt=""></a>
+        </div>
+        <div class="imag">
+          <div class="text">Десерты</div>
+          <a href="./desert.html"><img src="desert.jpg" alt=""></a>
+        </div>
+        <div class="imag">
+          <div class="text">Напитки</div>
+          <a href="./napitki.html"><img src="nap.jpg" alt=""></a>
+        </div>
+      </div>
+
+
+      <section class="menu">
+        <section id="Карта"></section>
+        <h3>Карта</h3>
+        <p>
+        Адрес: Леоновское шоссе д6к3 кв 15
+        </p>
+    </section>
+    <div class = "map1">  
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A24e2216c1a49bb8b68e69e30cf24ed3be21641fd19dd3780f18c73f59cae2c35&amp;source=constructor" width="1860" height="500" frameborder="0"></iframe>
+    </div>
+
+      <section id="Контакты" class="idfooter">
+        <footer class="footer wrap">
+            <a href="#">
+                <img src="1.png" alt="">
+            </a>
+            <p><b>Контакты:</b><br>+7(985)551-60-54 <br> alexeygnedoy979@gmail.com <br> https://vk.com/chestnut7</p> 
+            <div class="footer__iteam-text"> 
+              <a href="./reviews.html">Отзывы</a> 
+              <a href="#Главная" target="_blank">Главная</a> 
+              <a href="./map.html" target="_blank">Карта сайта</a> 
+            </div>  
+        </footer>
+      </section>  
+</body> 
+</html>
